@@ -1,6 +1,7 @@
 pipeline{
 
-agent any
+agent {
+label 'node' }
 
 tools{
 maven 'maven3.8.7'
